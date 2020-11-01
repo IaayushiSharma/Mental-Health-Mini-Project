@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F2E5DB;
+    font-family: 'Source Sans Pro';
+    overflow: auto;
+}
+.padding {
+    padding: 2% 8%;
+}
+
+
+/*Navbar*/
+.navbar> .container{
+    padding: 1% 4%;
+    margin: 0;
+}
+.navbar-header span {
+    font-size: 36px;
+    color: #968E29;
+    font-weight: 700;
+}
+.nav-item a {
+    font-family: 'Source Sans Pro';
+    font-size: 24px;
+    font-weight: 600;
+    color: #968E29;
+    cursor: pointer;
+    transition: background-color 200ms;
+}
+.nav-item a:hover {
+    color: #7e7607;
+    border-radius: 22%;
+    background-color: #f1efd4;
+}
+.nav-item a:active {
+    color: #968E29;
+}
+.nav-mid li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav-mid {
+    position: absolute;
+    right: 30%;
+}
+.nav-right li {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.nav-right {
+    position: absolute;
+    right: 6.56%;
+}
+
+/*main content*/
+.main-content > .container {
+    margin: 10px 60px;
+    padding: 40px 110px;
+}
+.main-content h2 {
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 82px;
+letter-spacing: 0.02em;
+color: #968E29;
+}
+.main-content button {
+    background-color: #968E29;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    width: 200px;
+    height: 50px;
+}
+.main-content button:hover {
+    background-color: #7e7607;
+}
+.main-content p {
+    font-family: Source Sans Pro;
+    font-size: 30px;
+    line-height: 57px;
+    /* or 150% */
+    letter-spacing: 0.02em;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+/*main content 1st*/
+.main-content-1 h3 {
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: #968E29;
+    margin: 1% 0% 3% 0%;
+}
+.main-content-1-right {
+font-size: 25px;
+line-height: 40px;
+letter-spacing: 0.02em;
+color: rgba(0, 0, 0, 0.6);
+}
+
+
+/*main content 3rd*/
+.main-content-2 h3 {
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: #968E29;
+    margin: 1% 0% 3% 0%;
+}
+
+
+/*Main content 3rd*/
+.main-content-3 {
+    margin: 2% 0% 4% 0%;
+}
+.main-content-3 h3 {
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: #968E29;
+    margin: 1% 0% 3% 0%;
+}
+.card {
+    background-color: #F2E5DB;
+    box-shadow: 8px 16px 80px rgba(249, 184, 160, 0.45);
+    border-radius: 10px;
+    border: none;
+    padding: 1% 2%;
+}
+.card-title {
+font-size: 70px;
+line-height: 126px;
+letter-spacing: 0.02em;
+color: #BA6642;
+}
+.card-text {
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #BA6642;
+}
+.card .main-content-3-text {
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+letter-spacing: 0.02em;
+color: rgba(0, 0, 0, 0.8);
+}
+.main-content-3 button {
+    background: #968E29;
+    border-radius: 50px;
+    border: none;
+    padding: 3% 10%;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+
+
+/*Footer Section*/
+footer {
+    background-color: #968E29;
+}
+.footer1 h4{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.footer1 .form-inline {
+    padding: 1% 19%;
+}
+.footer1 input[type = text] {
+    background: #FFFFFF;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    width: 70%;
+}
+.footer1 button {
+    background-color: #BA6642;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    padding: 9px 17px;
+}
+.footer1 button:hover {
+    background-color: #BA6642;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+}
+footer .container-fluid {
+    border-top: 0.5px solid rgba(255, 255, 255, 0.4);
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.4);
+}
+.footer2 p {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.footer3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+/*Responsive design*/
+@media only screen and (max-width: 1050px) {
+    .main-content-3 h3 {
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 60px;
+        letter-spacing: 0.02em;
+        color: #968E29;
+        margin: 1% 0% 3% 0%;
+    }
+    .card-title {
+    font-size: 70px;
+    line-height: 126px;
+    letter-spacing: 0.02em;
+    color: #BA6642;
+    }
+    .card-text {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #BA6642;
+    }
+    .card .main-content-3-text {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: rgba(0, 0, 0, 0.8);
+    }
+    .main-content-3 button {
+        background: #968E29;
+        border-radius: 50px;
+        border: none;
+        padding: 3% 10%;
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+    
+  }
