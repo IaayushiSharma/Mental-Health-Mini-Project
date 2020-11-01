@@ -34,15 +34,15 @@
                           <div class="input-group-prepend">
                             <span class="input-group-text">Email</span>
                           </div>
-                          <input type="email" class="form-control" id="email" name="e" required>
+                          <input type="email" class="form-control" id="email" name="email" required>
                         </div>
                         <div class="input-group mb-3">
-                          <input type="password" class="form-control" placeholder="" id="pwd" name="p" required>
+                          <input type="password" class="form-control" placeholder="" id="pwd" name="password" required>
                           <div class="input-group-append">
                             <span class="input-group-text">Password</span>
                           </div>
                         </div>
-                      <button>Login</button>
+                      <input type="submit" name="loginbtn" value="Login" id="r-button">
                       </form>
                   </div>
                 </div>
@@ -61,10 +61,10 @@
                           <div class="input-group-prepend">
                             <span class="input-group-text">Name</span>
                           </div>
-                          <input type="text" class="form-control" id="name" name="n" required>
+                          <input type="text" class="form-control" id="name" name="username" required>
                         </div>
                         <div class="input-group mb-3">
-                          <input type="email" class="form-control" id="email" name="e" required>
+                          <input type="email" class="form-control" id="email" name="email" required>
                           <div class="input-group-append">
                             <span class="input-group-text">Email</span>
                           </div>
@@ -73,9 +73,9 @@
                             <div class="input-group-prepend">
                               <span class="input-group-text">Password</span>
                             </div>
-                            <input type="password" class="form-control" id="pwd" name="p" required>
+                            <input type="password" class="form-control" id="pwd" name="password" required>
                           </div>
-                    <button>Register</button>
+                        <input type="submit" name="registerbtn" value="Register" id="r-button">
                     </form>
                   </div>
                 </div>
